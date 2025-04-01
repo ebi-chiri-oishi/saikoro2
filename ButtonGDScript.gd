@@ -7,6 +7,9 @@ func _ready():
 	saikoro.rotation = Vector3(randi_range(0,360),randi_range(0,360),randi_range(0,360))
 func clicked_Button():
 	isRoring = !isRoring
+	if isRoring == true:
+		var saikoro := $SaikoroObject as RigidBody3D
+		saikoro.position = Vector3(0,6,0)
 func _physics_process(delta: float) -> void:
 	var saikoro := $SaikoroObject as RigidBody3D
 	if isRoring == true:

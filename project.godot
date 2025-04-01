@@ -10,14 +10,14 @@ config_version=5
 
 [application]
 
-config/name="サイコロ"
+config/name="saikoro2"
 run/main_scene="uid://cpbs36y2g6pas"
 config/features=PackedStringArray("4.4", "C#", "Mobile")
 config/icon="res://icon.svg"
 
 [dotnet]
 
-project/assembly_name="サイコロ"
+project/assembly_name="saikoro2"
 
 [rendering]
 
