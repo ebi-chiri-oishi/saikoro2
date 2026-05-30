@@ -1,3 +1,8 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+
+saikoro2.csproj
+saikoro2.csproj.old
+saikoro2.csproj.old.1
+saikoro2.sln
